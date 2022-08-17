@@ -23,3 +23,11 @@ let inorderTraversal = function (root) {
   inorder(root);
   return result;
 };
+let ezc = function (root) {
+  let stack = [];
+  let result = [];
+  while(root){
+    stack.push(root)
+    root = root.left
+  }
+}
